@@ -8,13 +8,28 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      fontFamily: {
+        rubik: ["var(--font-rubik)", "sans-serif"],
+        rift: ["var(--font-rift)", "sans-serif"],
+      },
+      keyframes: {
+        fadeIn: {
+          "0%": {
+            maxHeight: "0",
+            opacity: "0",
+          },
+          "100%": {
+            maxHeight: "400px",
+            opacity: "1",
+          },
+        },
+      },
+      animation: {
+        "fade-in": "fadeIn 0.5s ease-in-out",
       },
     },
   },
   plugins: [],
 };
+
 export default config;

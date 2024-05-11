@@ -1,0 +1,22 @@
+.button {
+  @apply text-xl px-3 py-1 rounded-md cursor-pointer;
+  @apply text-[#333233] font-rift;
+  @apply bg-gradient-to-r from-[#0fc4c8] via-[#ffaafe] to-[#ffb801] bg-fixed;
+  @apply transition-all duration-300;
+
+  &:hover {
+    @apply brightness-110;
+  }
+}
+
+.input {
+  @apply w-full block outline-none font-rift italic font-medium;
+  @apply p-2.5 rounded-2xl mb-0 text-2xl;
+  @apply bg-white border-2 border-[#ddd];
+  @apply transition-all duration-300;
+  @apply text-[#333233] text-2xl;
+
+  &:focus {
+    @apply ring-[#ffaafe] ring-offset-2 ring-2;
+  }
+}
