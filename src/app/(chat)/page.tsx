@@ -126,6 +126,7 @@ export default function Home() {
               if (action.options) {
                 return (
                   <Listbox
+                    key={action.value}
                     as="div"
                     onChange={(value) => handleComplete(action.value, value)}
                     className={clsx("relative", "z-10", "w-full sm:w-auto")}
@@ -149,7 +150,7 @@ export default function Home() {
               }
 
               return (
-                <div className="w-full sm:w-auto">
+                <div key={action.value} className="w-full sm:w-auto">
                   <button
                     onClick={() => handleComplete(action.value)}
                     className={styles.button}
