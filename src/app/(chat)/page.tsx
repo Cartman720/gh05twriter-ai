@@ -80,10 +80,7 @@ export default function Home() {
             />
           </div>
           <div className="w-1/2 text-lg flex items-center">
-            <p>
-              Welcome to GH05Twriter, your dyslexia AI assistant. Simply enter
-              any text below and hit the prompt to optimize
-            </p>
+            
           </div>
         </div>
 
