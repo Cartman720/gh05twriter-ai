@@ -108,7 +108,7 @@ export default function Home() {
             onChange={handleInputChange}
             value={input}
             className={styles.input}
-            placeholder="Enter your social copy here..."
+            placeholder="Enter your text and hit the prompt to optimise"
           />
 
           {error && (
