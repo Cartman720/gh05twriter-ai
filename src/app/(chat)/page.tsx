@@ -62,7 +62,7 @@ export default function Home() {
 
   return (
     <main className="bg-[#333233] pt-40 flex min-h-screen text-white font-sans">
-      <div className="adamtab">Why did I build this?</div>
+      <div className="adamtab" class="adamtab">Why did I build this?</div>
       <div
         className={clsx(
           "container mx-auto items-center",
