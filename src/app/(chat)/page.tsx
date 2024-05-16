@@ -65,6 +65,7 @@ export default function Home() {
       <div id="adamtab" class="adamtab">
         <div class="tab-head">Why did I build this?</div>
         <div class="tab-description">The short answer is something something or other here, I need to copy and paste the text in at some point but it's difficult with the hover feature on figma so making stuff up</div>
+      </div>
       <div
         className={clsx(
           "container mx-auto items-center",
