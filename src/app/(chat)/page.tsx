@@ -118,7 +118,7 @@ export default function Home() {
 
         <div className={clsx("pt-6 pb-6", "border-t-2 border-[#ddd]")}>
           <div className="flex flex-wrap gap-3 items-center">
-            <span className="text-xl font-light">Help me optimise:</span>
+            <span className="text-xl font-light">Optimise:</span>
             {actions.map((action) => {
               if (action.options) {
                 return (
