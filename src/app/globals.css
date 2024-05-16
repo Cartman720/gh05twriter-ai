@@ -5,3 +5,14 @@
 body {
   @apply bg-[#333233] font-rubik;
 }
+
+.adamtab {
+    background-color: #7c7c7c;
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    transform: translate(-50%, -0%);
+    color: #111111;
+    padding: 15px;
+    border-radius: 0px 0px 15px 15px;
+}
