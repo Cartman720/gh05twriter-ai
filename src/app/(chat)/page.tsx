@@ -74,6 +74,8 @@ export default function Home() {
             </div>
         </div>
       </div>
+
+      <script src="query.js"></script>
       
       <div
         className={clsx(
