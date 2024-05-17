@@ -62,12 +62,12 @@ export default function Home() {
 
   return (
     <main className="bg-[#333233] pt-40 flex min-h-screen text-white font-sans">
-      <div class="adamtab" id="adamtab">
-        <div class="title" style="opacity:1;">Why did I build this?</div>
-          <div class="tab-head">
+      <div className="adamtab" id="adamtab">
+        <div className="title" style="opacity:1;">Why did I build this?</div>
+          <div className="tab-head">
             <div>Why did I build this?</div>
           </div>
-          <div class="tab-desc">
+          <div className="tab-desc">
             <div>
               <p>The short answer is something something or other here, I need to copy and paste the text in at some point but it's difficult with the hover feature on figma so making stuff up</p>
               <a href="#" class="tab-button">Read on for more detail</a>
