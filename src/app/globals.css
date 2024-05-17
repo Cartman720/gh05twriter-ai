@@ -121,4 +121,5 @@ body {
 }
 main {
   padding-top:150px !important;
+  overflow:scroll;
 }
