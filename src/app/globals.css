@@ -13,7 +13,7 @@ body {
     -o-transition: all 600ms ease-in-out;
     transition: all 600ms ease-in-out;
 }
-.adamtab .title {
+.adamtab .title, .adam {
     -webkit-transition: all 100ms ease-in-out;
     -moz-transition: all 100ms ease-in-out;
     -ms-transition: all 100ms ease-in-out;
