@@ -119,3 +119,6 @@ body {
 .fade-out {
     opacity:0 !important;
 }
+main {
+  padding-top:150px !important;
+}
