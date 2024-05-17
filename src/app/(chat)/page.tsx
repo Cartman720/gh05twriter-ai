@@ -65,7 +65,7 @@ export default function Home() {
       <div className="adamtab" id="adamtab">
         <div className="title" style="opacity:1;">Why did I build this?</div>
           <div className="tab-head">
-            <div>Why did I build this?</div>
+            <div>Why did I build this!?</div>
           </div>
           <div className="tab-desc">
             <div>
