@@ -74,6 +74,7 @@ export default function Home() {
             </div>
         </div>
       </div>
+      
       <div
         className={clsx(
           "container mx-auto items-center",
