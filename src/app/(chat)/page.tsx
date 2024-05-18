@@ -66,8 +66,11 @@ export default function Home() {
         <div className="title">Why did I build this?</div>
         <div className="tab-head">
             <div>Why did I build this?!</div>
-          </div>
-          <div className="tab-desc">
+        </div>
+        <div className="tab-desc">
+            <div>
+              <p>The short answer is something something or other here, I need to copy and paste the text in at some point but it's difficult with the hover feature on figma so making stuff up</p>
+            </div>
         </div>
       </div>
       <div
