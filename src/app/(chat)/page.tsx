@@ -68,7 +68,7 @@ export default function Home() {
             <div>Why did I build this?!</div>
         </div>
         <div className="tab-desc">
-          bmbkjh
+         The short answer is something something or other here I need to copy and paste the text in at some point but its difficult with the hover feature on figma so making stuff up
 
         </div>
       </div>
