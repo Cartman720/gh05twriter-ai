@@ -69,7 +69,7 @@ export default function Home() {
         </div>
         <div className="tab-desc">
          The short answer is something something or other here I need to copy and paste the text in at some point but its difficult with the hover feature on figma so making stuff up
-
+          <a href="#" class="tab-button">Read on for more detail</a>
         </div>
       </div>
       <div
