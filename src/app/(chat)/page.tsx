@@ -64,6 +64,11 @@ export default function Home() {
     <main className="bg-[#333233] pt-40 flex min-h-screen text-white font-sans">
       <div className="adamtab">
         <div className="title">Why did I build this?</div>
+        <div className="tab-head">
+            <div>Why did I build this?!</div>
+          </div>
+          <div className="tab-desc">
+        </div>
       </div>
       <div
         className={clsx(
